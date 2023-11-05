@@ -29,6 +29,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -38,27 +39,29 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
+            android:id="@+id/user_email"
             android:layout_width="343dp"
             android:layout_height="52dp"
-            android:inputType="text"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/sharp_borders_black"
+            android:fontFamily="@font/robotobold"
             android:hint="@string/login_email"
+            android:inputType="textEmailAddress"
             android:paddingStart="17dp"
             android:textSize="15sp"
-            android:fontFamily="@font/robotobold"
-            android:layout_marginBottom="16dp"
             tools:ignore="RtlSymmetry" />
 
         <EditText
+            android:id="@+id/user_password"
             android:layout_width="343dp"
             android:layout_height="52dp"
-            android:inputType="text"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/sharp_borders_black"
+            android:fontFamily="@font/robotobold"
             android:hint="@string/login_password"
+            android:inputType="textPassword"
             android:paddingStart="17dp"
             android:textSize="15sp"
-            android:fontFamily="@font/robotobold"
-            android:layout_marginBottom="16dp"
             tools:ignore="RtlSymmetry" />
 
         <Button
@@ -66,11 +69,10 @@
             android:layout_width="343dp"
             android:layout_height="52dp"
             android:background="@drawable/black_background_style"
-            android:text="@string/next_button1"
-            android:textColor="@color/white"
             android:fontFamily="@font/robotobold"
-            />
-
+            android:text="@string/next_button1"
+            android:textColor="@color/white" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

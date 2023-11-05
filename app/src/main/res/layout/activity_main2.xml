@@ -40,9 +40,10 @@
         app:layout_constraintTop_toTopOf="parent">
         
        <EditText
+           android:id="@+id/email_tv"
            android:layout_width="343dp"
            android:layout_height="52dp"
-           android:inputType="text"
+           android:inputType="textEmailAddress"
            android:background="@drawable/sharp_borders_black"
            android:hint="@string/register_email"
            android:paddingStart="17dp"
@@ -52,9 +53,10 @@
            tools:ignore="RtlSymmetry" />
 
         <EditText
+            android:id="@+id/password_tv"
             android:layout_width="343dp"
             android:layout_height="52dp"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:background="@drawable/sharp_borders_black"
             android:hint="@string/register_password"
             android:paddingStart="17dp"
@@ -107,6 +109,16 @@
             android:textColor="@color/white"
             android:fontFamily="@font/robotobold"
             />
+
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="36dp"
+            android:fontFamily="@font/robotobold"
+            android:text="@string/terms_of_service"
+            android:textSize="13sp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

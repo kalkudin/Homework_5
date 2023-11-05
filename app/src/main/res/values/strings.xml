@@ -14,4 +14,7 @@
     <string name="login_password">password</string>
     <string name="sing_up_button">Sign up</string>
     <string name="sing_up_username">username</string>
+    <string name="sign_out_button">Sign out</string>
+    <string name="welcome_text">welcome :3</string>
+    <string name="terms_of_service">By Signing up, you agree to Photo’s <u>Terms of Service</u> and <u>Privacy Policy.</u></string>
 </resources>
