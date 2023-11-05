@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Homework5</string>
+    <string name="photo">photo</string>
+    <string name="register">Register</string>
+    <string name="login">Log in</string>
+    <string name="pawel_czerwinski">Pawel Czerwinski</string>
+    <string name="pawel_czerwinski_instagram">&#64;pawel_czerwinski</string>
+    <string name="next_button1">next</string>
+    <string name="register_email">email</string>
+    <string name="register_password">password</string>
+    <string name="register_title">Register</string>
+    <string name="login_title">Login in</string>
+    <string name="login_email">email</string>
+    <string name="login_password">password</string>
+    <string name="sing_up_button">Sign up</string>
+    <string name="sing_up_username">username</string>
+</resources>
